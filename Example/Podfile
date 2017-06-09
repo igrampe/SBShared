@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SBShared_Example' do
+  pod 'SBShared', :path => '../'
+
+  target 'SBShared_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
