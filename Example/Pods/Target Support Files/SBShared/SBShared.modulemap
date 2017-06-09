@@ -1,0 +1,6 @@
+framework module SBShared {
+  umbrella header "SBShared-umbrella.h"
+
+  export *
+  module * { export * }
+}

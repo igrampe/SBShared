@@ -1,0 +1,21 @@
+PODS:
+  - EasyMapping (0.20.1):
+    - EasyMapping/Core (= 0.20.1)
+  - EasyMapping/Core (0.20.1)
+  - SBShared (0.1.0):
+    - EasyMapping
+
+DEPENDENCIES:
+  - SBShared (from `../`)
+
+EXTERNAL SOURCES:
+  SBShared:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyMapping: 5efbb468847aa71ddfdcb4c30640cc82a749a5f6
+  SBShared: 6162de7457040baf36223c5d632433d65084360e
+
+PODFILE CHECKSUM: 42da6f22a8ac1f017372ad118a3ffda75c32a020
+
+COCOAPODS: 1.2.1
